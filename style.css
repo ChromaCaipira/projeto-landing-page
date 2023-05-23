@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    font-family: 'Kanit', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 5rem
+}
+
+p {
+    color: white;
+}
+
+#welcome {
+    margin-top: 8rem !important;
+    margin-bottom: 8rem !important;
+}
+
+#welcome button {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border-radius: 10px
+}
