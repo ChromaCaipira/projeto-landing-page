@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    font-family: 'Kanit', sans-serif;
+}
+
+#page {
+    color: white;
+}
+
+#about-title {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#about {
+    margin-top: 5rem;
+}
+
+#about img {
+    height: 500px;
+    margin-bottom: 2rem;
+}

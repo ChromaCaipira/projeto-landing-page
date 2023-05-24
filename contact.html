@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/diamond_sword.png" type="image/icon type">
+        <link rel="stylesheet" href="bootstrap-4.6.2/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="styles/contact_style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="bootstrap-4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/8a27edbf33.js" crossorigin="anonymous"></script>
+        <title>Em Busca do Projeto Perfeito - Contato</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand text-success" href="#">Em Busca do Projeto Perfeito</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-md-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Sobre</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" 
+                            data-toggle="dropdown" aria-expanded="flse">
+                                Conteúdo
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="download.html">
+                                    <i class="fa-solid fa-download"></i>
+                                    Download
+                                </a>
+                                <a class="dropdown-item" href="#">Projeto</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="https://github.com/chromacaipira" 
+                                target="_blank">Github</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-success" href="contact.html">Contato 
+                            <span class="sr-only">(página atual)</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="page">
+            <div class="bg-dark" id="contact-me">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h1 class="text-sm-center">Contate-me!</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="forms">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <form>
+                            <div class="form-group">
+                                <label for="inputFullName">Nome Completo</label>
+                                <input type="name" class="form-control" id="inputFullName" aria-describedby="nameHelp">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail">Email</label>
+                                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
+                                <small id="emailHelp" class="form-text text-muted">Seu email nunca será compartilhado.
+                                </small>
+                            </div>
+                            <div class="form-group">
+                                <label for="messageTextArea">Mensagem</label>
+                                <textarea class="form-control" id="messageTextArea" rows="3"></textarea>
+                            </div>
+                            <button type="button" class="btn btn-success">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-sm-6" id="contact">
+                        <div class="row">
+                            <div id="contact-email">
+                                <h2>Contato</h2>
+                                <p>contatoguilhermechroma@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div id="socials">
+                                <a href="https://www.linkedin.com/in/guilherme-henrique-soares-da-silva/" 
+                                target="_blank">
+                                    <i class="fa-brands fa-linkedin fa-2xl"></i>
+                                </a>
+                                <a href="https://www.instagram.com/chroma_caipira/"
+                                target="_blank">
+                                    <i class="fa-brands fa-instagram fa-2xl"></i>
+                                </a>
+                                <a href="https://twitter.com/ChromaCaipira"
+                                target="_blank">
+                                    <i class="fa-brands fa-twitter fa-2xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

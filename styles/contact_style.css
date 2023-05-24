@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    font-family: 'Kanit', sans-serif;
+}
+
+#page {
+    color: white;
+}
+
+#page a {
+    color: white;
+    margin-right: 1.5rem;
+}
+
+#page a:hover {
+    text-decoration: none;
+    color: #198754;
+}
+
+#contact-me {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#forms {
+    margin-top: 1.5rem;
+}
+
+#forms .col-sm-6 {
+    padding-right: 5rem;
+}
+
+#contact .col-sm-6 {
+    padding-left: 5rem;
+}
+
+#contact-email {
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+#socials {
+    display: inline-block;
+}
