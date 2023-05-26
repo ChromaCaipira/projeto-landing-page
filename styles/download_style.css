@@ -26,9 +26,9 @@ body {
 }
 
 #downloads i {
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-    font-size: 4rem;
+    margin-top: 2.5rem;
+    margin-bottom: 3.5rem;
+    font-size: 5rem;
 }
 
 #downloads strong {
@@ -47,12 +47,13 @@ body {
 
 #other-downloads strong {
     margin-right: 1rem;
-    font-size: 1rem;
+    font-size: .85rem;
 }
 
 #other-downloads button {
     margin-inline: .1rem;
-    margin-top: .2rem
+    margin-top: .2rem;
+    font-size: .85rem;
 }
 
 #other-downloads .snap-store {
