@@ -9,16 +9,56 @@ body {
 
 #download-title {
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: .7rem;
 }
 
 #title-icon {
-    padding: .5em;
-    padding-top: .7em;
-    display: inline-block;
+    vertical-align: text-top !important;
 }
 
 #title {
-    display:inline-block;
-    text-align: right;
+    font-size: 1.5rem;
+}
+
+#downloads {
+    margin-top: 2rem;
+    display: flex;
+}
+
+#downloads i {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-size: 4rem;
+}
+
+#downloads strong {
+    font-size: 1.5rem;
+}
+
+#downloads small {
+    font-size: .8rem;
+    display: block;
+}
+
+#other-downloads {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+#other-downloads strong {
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+
+#other-downloads button {
+    margin-inline: .1rem;
+    margin-top: .2rem
+}
+
+#other-downloads .snap-store {
+    text-align: left;
+}
+
+#cli td {
+    padding-top: 1rem;
 }
