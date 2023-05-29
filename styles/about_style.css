@@ -16,6 +16,11 @@ body {
     margin-top: 5rem;
 }
 
+#about p {
+    text-indent: 2rem;
+    text-align: justify;
+}
+
 #about img {
     max-width: 100%;
     height: auto;
