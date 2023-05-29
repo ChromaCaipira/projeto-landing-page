@@ -7,7 +7,10 @@ Repositório criado para o projeto da Avaliação 2 (AV2) da disciplina de Desen
 Uma página web de um software fictício de gerenciamento de projetos com estilização "gameficada" (baseada em jogos retrô). 
 Utilizando-se de conceitos básicos de HTML, CSS e do framework Bootstrap v4.6
 
-## **Objetivos**
+## **Objetivo**
+(A definir)
+
+## **Requisitos**
 Funcionalidades da Landing Page:
 
 1. Design Atraente e Responsivo:
